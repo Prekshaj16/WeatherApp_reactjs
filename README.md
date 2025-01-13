@@ -8,9 +8,4 @@ A simple weather application built with React and Vite. Users can search for a c
 - Responsive UI built with Material-UI components.
 - Real-time weather data fetched from the OpenWeather API.
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Prekshaj16/react_project.git
-   cd react_project
