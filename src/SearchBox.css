@@ -1,8 +1,18 @@
+/* SearchBox container */
+.SearchBox {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
 
-  .SearchBox {
-    text-align: center;
-    position: absolute;
-    top: 40px;
-    margin-left: 580px;
-  }
-  
+/* Optional hover effect for elevation */
+.SearchBox:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}

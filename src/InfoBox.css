@@ -1,18 +1,24 @@
+/* InfoBox Container */
 .InfoBox {
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    top: 90px;
-    position: absolute;
-    margin-left: 530px;
+  position: relative;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centers horizontally */
+  padding-top: 90px;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin: 20px;
 }
 
+/* Card Container */
 .cardContainer {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Spacing between cards */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  margin: 33px;
 }
-

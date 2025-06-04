@@ -1,8 +1,15 @@
+/* Main Weather App Container */
 .weatherapp {
-    text-align: center;
-    
-} 
-h2 {
-    margin-left: 620px;
-    line-height: 1px;
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Heading Style */
+.weatherapp h2 {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: #333;
 }
